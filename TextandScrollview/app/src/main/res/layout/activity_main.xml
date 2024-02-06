@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="wrap_content"
+        android:layout_height="190dp"
+        android:layout_gravity="center"
+        android:layout_margin="10dp"
+        tools:srcCompat="@drawable/mycollege"
+        />
+
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="150dp">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="150dp"
+            android:layout_gravity="center"
+            android:textSize="20dp"
+            android:text="Abes Engineering College is a college that has been established or gained recognition after my last update, I recommend checking the official website of the college for the most accurate and up-to-date information. Additionally, you can look for reviews, rankings, and testimonials from students and alumni to gain insights into the college's reputation, academic offerings, faculty, infrastructure, and overall student experience."
+            />
+    </ScrollView>
+
+    <ImageView
+        android:id="@+id/imageView1"
+        android:layout_width="wrap_content"
+        android:layout_height="190dp"
+        android:layout_gravity="center"
+        android:layout_margin="10dp"
+        tools:srcCompat="@drawable/mycollege" />
+
+
+</LinearLayout>
